@@ -25,7 +25,6 @@ function verificarIntento() {
         intetos++;
         limpiarCaja();
     }
-
     return;
 }
 
@@ -52,8 +51,6 @@ function generaraNumeroSecreto() {
             return numeroGenerado;
         } 
     }
-
-
 }
 
 function condicionesIniciales() {
@@ -77,31 +74,3 @@ function reiniciarJuego() {
 
 condicionesIniciales();
 
-// let nombre = 'Juan';
-
-// function holaMundo(){
-//     console.log(`Hola ${nombre}`);
-//     return;
-// }
-// holaMundo();
-
-// function dividir(num1, num2, num3){
-//     suma = num1 + num2 + num3;
-//     promedio = suma / 3;
-//     console.log(promedio);
-
-// }
-// dividir(10, 20, 30);
-
-// let numero2 = 5;
-
-// function multiNumero(){
-//     console.log(numero2 * 2);
-//     return;
-// }
-// multiNumero();
-
-// function mayor(n1, n2){
-//     return n1 > n2 ? n1 : n2;
-// }
-// console.log(mayor(10,18));
